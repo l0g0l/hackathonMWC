@@ -1,0 +1,17 @@
+.textFront{
+    color: white;
+    font-size: 16px;
+}
+.quotesIcon{
+    height: 19px;
+    margin-bottom: 30px;
+}
+.vectorIcon{
+    height: 22px;
+    margin-top: 20px;
+    float: right;
+}
+@media (min-width: 1025px) {
+    display: flex;
+    align-items: center;		
+}

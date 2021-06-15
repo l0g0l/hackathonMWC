@@ -72,10 +72,6 @@ Para dar el diseño como finalizado nos piden que complemetemos las siguientes t
 
 
 
-El Front End ha sido creado con [Reactjs](https://es.reactjs.org/) y [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) 
-
-El proyecto está desplegado en [Heroku](https://id.heroku.com/) rama `main`.
-
 
 <!-- USAGE -->
 <!-- ## APP OVERVIEW
@@ -133,7 +129,13 @@ El proyecto está desplegado en [Heroku](https://id.heroku.com/) rama `main`.
 
 
 <!-- ACKNOWLEDGEMENTS -->
+
+
 ## Languages and Tools:
+El Front End ha sido creado con [Reactjs](https://es.reactjs.org/) y [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) 
+
+El proyecto está desplegado en [Heroku](https://id.heroku.com/) 
+
 <p align="left">
     <!-- <a href="https://aws.amazon.com/" target="_blank"> 
         <img src="https://raw.githubusercontent.com/diegogb-08/Hobbidu-frontend/master/public/aws-logo.png" alt="Amazon Web Services" width="40" height="40"/>
@@ -168,6 +170,9 @@ El proyecto está desplegado en [Heroku](https://id.heroku.com/) rama `main`.
     <a href="https://reactjs.org/" target="_blank">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
     </a>
+       <a href="https://www.heroku.com/home" target="_blank">
+        <img src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png" alt="heroku" width="40" height="40"/>
+    </a>
 <!--     <a>
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/>
     </a>
@@ -185,16 +190,11 @@ El proyecto está desplegado en [Heroku](https://id.heroku.com/) rama `main`.
     </a> -->
 </p>
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License.
-
 
 
 <!-- CONTACT -->
 ## Contact
 
 - Lucía González 
-    - [GitHub](https://github.com/l0g0l)
+    - [![Github](./images/GitHub.png)](https://github.com/l0g0l)
     - [LinkedIn](https://www.linkedin.com/in/luciagonzalezlara)
