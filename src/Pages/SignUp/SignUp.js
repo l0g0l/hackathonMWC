@@ -21,23 +21,23 @@ const SignUp = () => {
                 <Header />
                 <div className="all2">
                     <div className="containerregister">
-                        <div>
-                            <Title />
+
+                        <Title />
+
+
+
+                        <Input />
+
+
+
+
+                        <p className="textO">o</p>
+
+                        <div className="google">
+                            <img src={google} alt="logo" />
+                            <p>Regístrate con Google</p>
+                            <div></div>
                         </div>
-
-                        <div>
-                            <Input />
-                        </div>
-                        <div>
-
-                        </div>
-
-                    </div>
-                    <p className="textO">o</p>
-
-                    <div className="google">
-                        <img src={google} alt="logo" />
-                        <p>Regístrate con Google</p>
 
 
                     </div>

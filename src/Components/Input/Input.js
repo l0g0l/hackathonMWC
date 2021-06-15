@@ -55,13 +55,14 @@ const Input = () => {
                 <input 
                 type="password" 
                 name="password"  
-                className="textfield-input" 
+                className="textfield-input showpassword" 
                 placeholder="Contraseña"
+                id="myInput"
                 {...register("password", { required: true }, {pattern:/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/
             })} />
                 {errors.password?.type === 'required' && "Debe contener al menos 1 mayúscula, minúscula, número y carácter especial"}
  
-                <span onClick={myFunction}>Mostrar</span>
+                <span  onClick={myFunction}>Mostrar</span>
             </div>
             <div className="terms">
                 <input type="checkbox" name="check"
@@ -70,7 +71,7 @@ const Input = () => {
             </div>
 
             <div>
-                <Button txt={'Registrar cuenta'}/>
+                <Button txt={'Registrar cuenta'} path={'./profile'}/>
             </div>
 
             </form>
