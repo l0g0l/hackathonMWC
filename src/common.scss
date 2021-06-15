@@ -1,9 +1,27 @@
 .txthomeheader {
-
-    margin: 65px 98px 112px 0;
+  margin: 65px 98px 112px 0;
 }
-.textfieldhome-text-4 {
+.textfieldhome-text {
+  &-1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  &-2 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #a5a6a7;
+    margin-bottom: 72px;
+  }
+
+  &-4 {
     font-size: 12px;
     font-weight: normal;
     color: #a5a6a7;
+  }
+  &-5 {
+    color: #6d6d6e;
+    font-size: 16px;
+    font-weight: 500;
+  }
 }

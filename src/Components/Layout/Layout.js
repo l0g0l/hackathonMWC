@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
             <main>
                 <div className="containerlayout">
                     <Background />
-                    <Header />
+                  
                     {children}
                    
                 </div>
