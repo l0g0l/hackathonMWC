@@ -23,7 +23,7 @@ const Header = (props) => {
 
             <div className="containerheader-step">
                 <p className="textfieldhome-text-4">{props.step}</p>
-                <p className="textfieldhome-text-5">Personal Info.</p>
+                <p className="textfieldhome-text-5">{props.subtitle}</p>
 
             </div>
             
