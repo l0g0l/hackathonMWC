@@ -1,4 +1,6 @@
 .textContainer {
+	display: flex;
+	align-items: center;
     background-image: url("/images/Background.png");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -6,14 +8,32 @@
 	width: 35%;
 	height: 100vh;
 	padding: 0px 45px;	
-	// display: none;	
+		
 	.textFront{
+		position: relative;
 		color: white;
 		font-size: 21px;
         line-height: 2rem;
-        display: block;
-        margin: auto;
         padding: 0 24px;
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left:0;
+			width: 20px;
+			height: 20px;
+			background-image: url("/images/icons/quotes.png");
+		}
+		&::after {
+			content: "";
+			position: absolute;
+			bottom: -50px;
+			right: 26px;
+			width: 32px;
+			height: 32px;
+			background-image: url("/images/icons/vector.png");
+			background-repeat: no-repeat;
+		}
 	}
 	.quotesIcon{
 		position: absolute;
@@ -27,8 +47,15 @@
         float: right;
         margin-right: 119px;
 	}
-	@media (min-width: 1025px) {
-		display: flex;
-		align-items: center;		
-	}
+
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+.textContainer {
+	display: none;
+	
+}
+
 }

@@ -11,10 +11,10 @@ import VerifyProfile from '../../Pages/VerifyProfile/VerifyProfile'
 const Routes = () => {
     return (
         <Router>
-            <Route exact path="/" component={Home}></Route>
 
             <Layout>
                 <Switch>
+                <Route exact path="/" component={Home}></Route>
 
                     <Route path="/signup" component={SignUp}></Route>
                     <Route path="/profile" component={Profile}></Route>

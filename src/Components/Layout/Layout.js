@@ -1,14 +1,24 @@
 import React from 'react';
-import Header from '../Layout/Header/Header'
+import Background from '../Background/Background'
 
-const Layout = ({children}) => {
+import './layout.scss'
+
+const Layout = ({ children }) => {
     return (
-        <div>
-            
-            <Header/>
-            <main>{children}</main>
-                   
-        </div>
+        <>
+
+
+            <main>
+                <div className="container">
+                    <Background />
+
+                    {children}
+                </div>
+
+
+            </main>
+
+        </>
     )
 }
 
