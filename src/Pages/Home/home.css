@@ -98,4 +98,13 @@
   right: 25px;
   z-index: 1;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .containertotal {
+    width: 100%;
+  }
+  .txthomeheader {
+    margin: 42px 28px 71px 0;
+  }
+}
 /*# sourceMappingURL=home.css.map */

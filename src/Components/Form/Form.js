@@ -54,7 +54,7 @@ const Input = (props) => {
                 })}
 
                 <div>
-                    <Button txt={props.buttontxt} func={props.handleOpen}/>
+                    <Button txt={props.buttontxt} />
                 </div>
 
             </form>

@@ -14,4 +14,14 @@ button {
   background-color: #000;
   font-size: 16px;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  p {
+    margin-bottom: unset;
+  }
+  button {
+    width: 0;
+    height: 0;
+  }
+}
 /*# sourceMappingURL=modal.css.map */

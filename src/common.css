@@ -34,4 +34,10 @@
   color: #a5a6a7;
   margin-bottom: 120px;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .txthomeheader {
+    margin: 42px -131px 71px 0;
+  }
+}
 /*# sourceMappingURL=common.css.map */

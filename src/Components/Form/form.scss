@@ -25,12 +25,12 @@
     margin-bottom: 10px;
   }
   span {
-    position: fixed;
+    position: absolute;
     cursor: pointer;
     padding: 2px 10px;
     color: #6d6d6e;
-    right: 194px;
-    bottom: 327px;
+    right: 0;
+    bottom: 37px;
   }
 }
 .terms {
@@ -41,4 +41,12 @@
     margin-left: 10px;
   }
 }
+@media (min-width: 320px) and (max-width: 480px) {
 
+  .textfield span {
+    position: absolute;
+    right: 0;
+    bottom: 35px;
+}
+  
+  }

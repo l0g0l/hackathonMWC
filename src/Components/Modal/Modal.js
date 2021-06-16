@@ -30,7 +30,11 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
     fontFamily: 'sans-serif',
-    borderRadius: 6
+    borderRadius: 6,
+    [theme.breakpoints.down('sm')]: {
+      marginleft: 45,
+
+    },
    
   },
 }));
@@ -54,7 +58,7 @@ export default function SimpleModal() {
       <h2 id="simple-modal-title">¡Todo guay!</h2>
       <p id="simple-modal-description">
 Tu cuenta se ha creado correctamente</p>
-<a href="https://nuwe.io/" target="_blank" rel="noreferrer" ><button>Vamos para Nuwe</button></a>
+<a href="https://nuwe.io/" target="_blank" rel="noreferrer" ><button id="modal-button">Vamos para Nuwe</button></a>
       
     </div>
   );

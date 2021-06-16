@@ -32,3 +32,13 @@
     margin-bottom: 120px;
 }
 }
+@media (min-width: 320px) and (max-width: 480px) {
+  .txthomeheader {
+    margin:0px 184px 54px 0;
+    position: absolute;
+    bottom: 0;
+}
+.textfieldhome-text-5 {
+  margin-left: 10px;
+}
+}

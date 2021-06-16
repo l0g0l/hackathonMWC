@@ -38,4 +38,10 @@
 .containerheader-step {
   text-align: right;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .containerheader {
+    margin-bottom: 76px;
+  }
+}
 /*# sourceMappingURL=header.css.map */

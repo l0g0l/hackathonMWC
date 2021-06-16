@@ -1,16 +1,25 @@
-h2 {
-    font-size: 20px;
-    margin-bottom: 20px;
-    
+#simple-modal-title {
+  font-size: 20px;
+  margin-bottom: 20px;
 }
-p {
-    margin-bottom: 20px;
+#simple-modal-description {
+  margin-bottom: 20px;
 }
 
-button {
-    width: 250px;
+#modal-button {
+  width: 250px;
+  height: 50px;
+  color: #fff;
+  background-color: #000;
+  font-size: 16px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  #simple-modal-description {
+    margin-bottom: 24px;
+  }
+  #modal-button {
+    width: 207px;
     height: 50px;
-    color: #fff;
-    background-color: #000;
-    font-size: 16px;
+    margin-left: 41px;
+  }
 }
