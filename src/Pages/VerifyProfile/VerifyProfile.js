@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../Components/Layout/Header/Header';
 import Title from '../../Components/Title/Title';
-import Form2 from '../../Components/Form2/Form2';
+import Form from '../../Components/Form/Form';
 import Modal  from '../../Components/Modal/Modal';
 
 
@@ -10,6 +10,22 @@ import './verifyprofile.scss'
 
 
 const VerifyProfile = () => {
+    const form_fields_definition = [{
+        placeholder: "0000 0000 0000 0000",
+        text: "Número de tarjeta",
+        error_msg: "Por favor introduce un número válido",
+        name: "credito",
+        validationOptions: { required: true }
+    },
+    {
+        placeholder: "CVC",
+        text: "Código secreto *",
+        error_msg: "",
+        validationOptions: {
+            required: false,
+        },
+        name: "cvc"
+    }]
 
     return (
         <>
@@ -18,10 +34,8 @@ const VerifyProfile = () => {
                 <div className="all2">
                     <div className="containerregister">
                         <Title txt={'Verifica tu perfil'}/>
-                        <Form2 buttontxt={'Crear cuenta'} func={'sendProfile'} inputext1={'Número de Tarjeta'} inputext2={'Código secreto'} placeh1={'0000 0000 0000 0000'} placeh2={'CVC'} error1={"Debes introducir un número de tarjeta válido"}  error2={""}   />
-                     
-
-                     <Modal/>
+                         <Form buttontxt={'Crear cuenta'} fieldsDefinition={form_fields_definition} />
+                     <Modal />
                     </div>
                 </div>
             </div>

@@ -1,0 +1,41 @@
+.containerheader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-bottom: 112px;
+}
+
+.containerheader-back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.containerheader-back img {
+  width: 16px;
+  height: 16px;
+}
+
+.containerheader-back button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.containerheader .textfieldhome-text-5 {
+  color: #6d6d6e;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.containerheader-step {
+  text-align: right;
+}
+/*# sourceMappingURL=header.css.map */

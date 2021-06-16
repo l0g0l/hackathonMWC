@@ -3,8 +3,6 @@ import Button from '../Button/Button';
 import { useForm } from "react-hook-form";
 import { useHistory } from 'react-router-dom';
 
-
-
 import './form.scss'
 
 
@@ -56,7 +54,7 @@ const Input = (props) => {
                 })}
 
                 <div>
-                    <Button txt={props.buttontxt} />
+                    <Button txt={props.buttontxt} func={props.handleOpen}/>
                 </div>
 
             </form>

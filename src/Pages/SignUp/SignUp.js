@@ -53,8 +53,7 @@ const SignUp = () => {
         div_className: "terms",
         showaceptar: true
 
-    },
-    ]
+    }]
     return (
         <>
             <div className="Total">
