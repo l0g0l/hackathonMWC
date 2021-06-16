@@ -5,7 +5,7 @@
     <img height="200" src="https://f6s-public.s3.amazonaws.com/profiles/2803317_original.jpg" alt="Logo" >
 
 
-<h4 align="center">Hackathon MWC Nuwe</h4>
+<h4 align="center">Hackathonmwc Nuwe</h4>
   <p align="center">
     <a href="https://hobbidu.herokuapp.com/">View Web Application</a>
   </p>
@@ -17,6 +17,12 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <!-- <ol> -->
+   <li>
+      <a href="#learnmore">Learn More</a>
+    </li>
+     <li>
+      <a href="#prerequisites">Prerequisites</a>
+    </li>
     <li>
       <a href="#installation">Installation</a>
     </li>
@@ -32,9 +38,41 @@
   </ol>
 </details>
 
+## Learn more
+
+Para estar más familiarizado con las librerías y frameworks que he utilizado principalmente voy a dejar una pequeña explicación aquí:
+
+
+### [React Router](https://reactrouter.com/)
+npm install react-router-dom  
+
+React Router is a collection of navigational components that compose declaratively with your application. Whether you want to have bookmarkable URLs for your web app or a composable way to navigate in React Native, React Router works wherever React is rendering--so take your pick!
+
+### [React Hook Form](https://react-hook-form.com/)
+
+npm instalar react-hook-form  
+
+Forms are an essential part of how users interact with websites and web applications. Validating the user’s data passed through the form is a crucial responsibility for a developer.
+React-hook-form is a library that helps you validate forms in React. It is performant and straightforward to use, requiring developers to write fewer lines of code than other form libraries.  
+
+### [Sass](https://sass-lang.com/)  
+npm install -g sass
+
+Sass is a CSS preprocessor, which adds special features such as variables, nested rules and mixins (sometimes referred to as syntactic sugar) into regular CSS. The aim is to make the coding process simpler and more efficient.  
+
+### Prerequisities
+
+-   Git
+-   [Node](https://nodejs.org/en/): 10.16.0 o superior
+-   Clona el reposotorio en tu máquina local (git clone https://github.com/l0g0l/hackathonmwc.git) 
+
+
 ## Installation
 
 ###### Frontend
+```sh
+`cd hackathonmwc` entramos en la carpeta 
+```
 
 Instala las dependecies y Devdependencies
 
@@ -132,9 +170,9 @@ Para dar el diseño como finalizado nos piden que complemetemos las siguientes t
 
 
 ## Languages and Tools:
-El Front End ha sido creado con [Reactjs](https://es.reactjs.org/) y [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) 
+El Front End ha sido creado con [Reactjs](https://es.reactjs.org/) y [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+El proyecto está desplegado en [Heroku](https://id.heroku.com/)  
 
-El proyecto está desplegado en [Heroku](https://id.heroku.com/) 
 
 <p align="left">
     <!-- <a href="https://aws.amazon.com/" target="_blank"> 
@@ -196,5 +234,5 @@ El proyecto está desplegado en [Heroku](https://id.heroku.com/)
 ## Contact
 
 - Lucía González 
-    - [![Github](./images/GitHub.png)](https://github.com/l0g0l)
+    - [Github](https://github.com/l0g0l)
     - [LinkedIn](https://www.linkedin.com/in/luciagonzalezlara)
