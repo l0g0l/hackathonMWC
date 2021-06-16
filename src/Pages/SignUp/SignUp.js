@@ -10,14 +10,60 @@ import './signup.scss'
 
 
 const SignUp = () => {
+    const form_fields_definition = [{
+        placeholder: "Nombre Completo",
+        text: "Nombre Completo *",
+        error_msg: "Por favor introduce tu nombre completo",
+        name: "nombre",
+        validationOptions: { required: true }
+    },
+    {
+        placeholder: "Correo electrónico",
+        text: "Correo electrónico *",
+        error_msg: "Por favor introduce un email válido",
+        validationOptions: {
+            required: true,
+            pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i
+        },
+        name: "email"
+    },
+    {
+        placeholder: "Contraseña",
+        text: "Contraseña *",
+        error_msg: "Debe contener un mínimo de 8 dígitos de los cuales al menos 1 mayúscula, minúscula, número y carácter especial",
+        validationOptions: {
+            required: true,
+            pattern: /^(?=.*\d)(?=.*[\u0021-\u002b\u003c-\u0040])(?=.*[A-Z])(?=.*[a-z])\S{8,16}$/
+        },
+        name: "password",
+        showmostrar: true,
+        type: "password",
+        id: "myInput"
+
+    },
+    {
+        placeholder: "",
+        text: "",
+        error_msg: "Debes aceptar las condiciones",
+        validationOptions: {
+            required: true,
+        },
+        name: "check",
+        type: "checkbox",
+        div_className: "terms",
+        showaceptar: true
+
+    },
+    ]
     return (
         <>
             <div className="Total">
                 <Header step={'01/03'} subtitle={'Personal Info.'} />
                 <div className="all2">
                     <div className="containerregister">
-                        <Title txt={'Registra tu cuenta individual'}/>
-                        <Form buttontxt={'Registrar cuenta'} func={'sendProfile'} inputext1={'Nombre Completo *'} inputext2={'Correo electrónico *'} inputext3={'Contraseña *'} placeh1={'Nombre Completo '} placeh2={'Correo electrónico'} placeh3={'Contraseña'} error1={"Por favor introduce tu nombre completo"}  error2={"Por favor introduce un email válido"}  error3={"Debe contener un mínimo de 8 dígitos de los cuales al menos 1 mayúscula, minúscula, número y carácter especial"}/>
+                        <Title txt={'Registra tu cuenta individual'} />
+
+                        <Form buttontxt={'Registrar cuenta'} fieldsDefinition={form_fields_definition} destination={'/profile'} />
                         <p className="textO">o</p>
 
                         <div className="google">
