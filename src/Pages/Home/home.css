@@ -1,0 +1,108 @@
+.containertotal {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .containertotal {
+    width: 100%;
+    margin-top: 80px;
+  }
+}
+
+.containertotal .txt-home {
+  color: #a5a6a7;
+  font-weight: 500;
+}
+
+.containertotal .txt-link {
+  color: #58b464;
+  font-weight: 500;
+}
+
+.containertotal .textfieldhome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 70px;
+  width: 58%;
+}
+
+.containertotal .textfieldhome-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.containertotal .textfieldhome-text {
+  display: block;
+  margin: 0 auto;
+}
+
+.containertotal .textfieldhome-text-1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.containertotal .textfieldhome-text-2 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #a5a6a7;
+  margin-bottom: 72px;
+}
+
+.containertotal .textfieldhome-text-3 {
+  margin-bottom: 5px;
+}
+
+.containertotal .textfieldhome-text-4 {
+  font-size: 12px;
+  font-weight: normal;
+  color: #a5a6a7;
+}
+
+.containertotal .textfieldhome-icon {
+  top: 17px;
+  left: 25px;
+  position: relative;
+}
+
+.containertotal .textfieldhome-icon2 {
+  top: 17px;
+  left: 56px;
+  position: relative;
+}
+
+.containertotal .textfieldhome .iconsbutton {
+  position: relative;
+  top: -28px;
+}
+
+.containertotal .textfieldhome .iconsbutton-img1 {
+  position: absolute;
+  top: 40px;
+  right: 39px;
+  z-index: 3;
+}
+
+.containertotal .textfieldhome .iconsbutton-img2 {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 1;
+}
+/*# sourceMappingURL=home.css.map */

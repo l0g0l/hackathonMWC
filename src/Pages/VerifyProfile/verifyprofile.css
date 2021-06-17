@@ -1,1 +1,27 @@
-/* No CSS *//*# sourceMappingURL=verifyprofile.css.map */
+#simple-modal-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#simple-modal-description {
+  margin-bottom: 20px;
+}
+
+#modal-button {
+  width: 250px;
+  height: 50px;
+  color: #fff;
+  background-color: #000;
+  font-size: 16px;
+  outline: none;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .makeStyles-paper-1 div {
+    top: 46%;
+    margin-left: 60px;
+    -webkit-transform: translate(-59%, -54%);
+            transform: translate(-59%, -54%);
+  }
+}
+/*# sourceMappingURL=verifyprofile.css.map */
