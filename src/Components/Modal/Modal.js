@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: 'sans-serif',
     borderRadius: 6,
     [theme.breakpoints.down('sm')]: {
-      marginleft: 45,
+      marginright: 25,
 
     },
    
