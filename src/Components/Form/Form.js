@@ -54,7 +54,8 @@ const Input = (props) => {
                 })}
 
                 <div>
-                    <Button txt={props.buttontxt} button_onclick={typeof props.button_onclick != "undefined" ? props.button_onclick : ""}/>
+                    
+                <Button txt={props.buttontxt} button_onclick={typeof props.button_onclick != "undefined" ? props.button_onclick : () => {}}/>              
                 </div>
 
             </form>
