@@ -12,18 +12,5 @@
   color: #fff;
   background-color: #000;
   font-size: 16px;
-}
-@media (min-width: 320px) and (max-width: 480px) {
-  #simple-modal-description {
-    margin-bottom: 24px;
-  }
-  #modal-button {
-    width: 207px;
-    height: 50px;
-    margin-left: 41px;
-  }
-  .makeStyles-paper-1 {
-    top: 51%;
-    left: 36%;
-  }
+  outline: none;
 }

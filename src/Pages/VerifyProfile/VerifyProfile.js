@@ -36,8 +36,7 @@ function rand() {
       fontFamily: 'sans-serif',
       borderRadius: 6,
       [theme.breakpoints.down('sm')]: {
-        marginleft: 25,
-  
+        mx:"auto",
       },
      
     },
