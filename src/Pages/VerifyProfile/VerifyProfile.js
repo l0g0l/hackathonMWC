@@ -35,10 +35,7 @@ function rand() {
       padding: theme.spacing(2, 4, 3),
       fontFamily: 'sans-serif',
       borderRadius: 6,
-      [theme.breakpoints.down('sm')]: {
-        mx:"auto",
-      },
-     
+    
     },
   }));
 
