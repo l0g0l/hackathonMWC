@@ -33,15 +33,19 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: 6,
     [theme.breakpoints.down('sm')]: {
       marginright: 25,
+      margintop: 100,
+      // left: 50,
+      // right: 50
+
 
     },
-   
+
   },
 }));
 
 export default function SimpleModal() {
   const classes = useStyles();
-  
+
   const [modalStyle] = React.useState(getModalStyle);
   const [open, setOpen] = React.useState(false);
 
@@ -57,9 +61,9 @@ export default function SimpleModal() {
     <div style={modalStyle} className={classes.paper}>
       <h2 id="simple-modal-title">¡Todo guay!</h2>
       <p id="simple-modal-description">
-Tu cuenta se ha creado correctamente</p>
-<a href="https://nuwe.io/" target="_blank" rel="noreferrer" ><button id="modal-button">Vamos para Nuwe</button></a>
-      
+        Tu cuenta se ha creado correctamente</p>
+      <a href="https://nuwe.io/" target="_blank" rel="noreferrer" ><button id="modal-button">Vamos para Nuwe</button></a>
+
     </div>
   );
 

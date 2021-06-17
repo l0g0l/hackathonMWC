@@ -5,7 +5,10 @@
   align-items: center;
   padding: 0 20px;
   width: 60%;
-
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 100%;
+    margin-top: 60px;
+  }
 }
 .all2 {
   display: flex;
@@ -13,12 +16,6 @@
   align-items: baseline;
   justify-content: center;
   max-width: 400px;
-  @media (min-width: 320px) and (max-width: 480px) {
-
-    margin-left: 32px;
-    max-width: 500px;
-    // width: 100%;
-  }
 }
 .google {
   display: flex;

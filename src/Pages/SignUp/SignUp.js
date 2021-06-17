@@ -56,8 +56,8 @@ const SignUp = () => {
     }]
     return (
         <>
-            <div className="Total">
-                <Header step={'01/03'} subtitle={'Personal Info.'} />
+            <div className="Total">      
+               <Header step={'01/03'} subtitle={'Personal Info.'} />
                 <div className="all2">
                     <div className="containerregister">
                         <Title txt={'Registra tu cuenta individual'} />
@@ -72,6 +72,7 @@ const SignUp = () => {
                         </div>
                     </div>
                 </div>
+                
             </div>
 
         </>

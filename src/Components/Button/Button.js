@@ -8,7 +8,7 @@ const Button = (props) => {
 
     return (
         <>
-         <input type="submit" className="btn" value={props.txt}  />
+         <input type="submit" className="btn" value={props.txt}  onClick={props.button_onclick}/>
         </>
     )
 }
