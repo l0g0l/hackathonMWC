@@ -7,7 +7,7 @@
 
 <h4 align="center">Hackathonmwc Nuwe</h4>
   <p align="center">
-    <a href="https://hobbidu.herokuapp.com/">View Web Application</a>
+    <a href="https://hackathon-mwc.herokuapp.com/">View Web Application</a>
   </p>
 </p>
 
@@ -74,7 +74,7 @@ Sass is a CSS preprocessor, which adds special features such as variables, neste
 `cd hackathonmwc` entramos en la carpeta 
 ```
 
-Instala las dependecies y Devdependencies
+Instala las dependecies y devDependencies
 
 ```sh
 npm i

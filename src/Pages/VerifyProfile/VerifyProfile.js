@@ -10,7 +10,7 @@ import '../../common.scss';
 import './verifyprofile.scss'
 
 function rand() {
-    return Math.round(Math.random() * 20) - 10;
+    return Math.round(Math.floor() * 20) - 10;
   }
   
   function getModalStyle() {
@@ -83,7 +83,7 @@ const VerifyProfile = () => {
                             aria-labelledby="simple-modal-title"
                             aria-describedby="simple-modal-description"
                         >
-                            <div style={modalStyle}  className={classes.paper} >
+                            <div style={modalStyle}  id="modalquerie" className={classes.paper} >
                                 <h2 id="simple-modal-title">¡Todo guay!</h2>
                                 <p id="simple-modal-description">
                                     Tu cuenta se ha creado correctamente</p>

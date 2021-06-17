@@ -16,12 +16,15 @@
   outline: none;
 }
 
+#modalquerie {
+  top: 46%;
+  left: 38%;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
-  .makeStyles-paper-1 div {
+  #modalquerie {
     top: 46%;
-    margin-left: 60px;
-    -webkit-transform: translate(-59%, -54%);
-            transform: translate(-59%, -54%);
+    margin-left: 27px;
   }
 }
 /*# sourceMappingURL=verifyprofile.css.map */
