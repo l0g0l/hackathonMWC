@@ -141,7 +141,7 @@ Para dar el diseño como finalizado nos piden que complemetemos las siguientes t
 
 ###### SignUp Mobile 
 
-![SignUp](https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(3).png)
+![SignUp](https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(6).png)
 <br>
 <br>
 
