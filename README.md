@@ -16,24 +16,13 @@
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
-  <!-- <ol> -->
-   <li>
-      <a href="#learnmore">Learn More</a>
-    </li>
-     <li>
-      <a href="#prerequisites">Prerequisites</a>
-    </li>
-    <li>
-      <a href="#installation">Installation</a>
-    </li>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <!-- <li>
-      <a href="#app-overview">Overview</a>
-    </li> -->
+  <ol>
+    <li><a href="#learn-more">Learn More</a></li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#app-overview">App Overview</a></li>
     <li><a href="#languages-and-tools">Languages and Tools</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -60,7 +49,7 @@ npm install -g sass
 
 Sass is a CSS preprocessor, which adds special features such as variables, nested rules and mixins (sometimes referred to as syntactic sugar) into regular CSS. The aim is to make the coding process simpler and more efficient.  
 
-### Prerequisities
+### Prerequisites
 
 -   Git
 -   [Node](https://nodejs.org/en/): 10.16.0 o superior
@@ -109,45 +98,43 @@ Para dar el diseño como finalizado nos piden que complemetemos las siguientes t
 - **DOD-3:** Tiene que estar desarrollado utilizando ReactJS
 
 
-<!-- USAGE -->
- ## APP OVERVIEW
+<!-- APP OVERVIEW -->
+## App Overview
+
 
 ###### Home Desktop
 
-![Home](https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC.png)
+<img src="https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC.png" alt="Home Desktop">
 
 <br>
 <br>
 
 ###### SignUp Desktop
 
-![SignUp](https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(1).png) 
+<img src="https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(1).png" alt="SignUp Desktop"> 
 
 <br>
 <br>
 
 ###### Verify SignUp Desktop
 
-![Verify SingUp](https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(5).png)
+<img src="https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(5).png" alt="Verify SignUp Desktop">
 
 <br>
 <br>
 
 ###### Home Mobile
 
-![Home](https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(2).png)
+<img src="https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(2).png" alt="Home Mobile">
 <br>
 <br>
 
 ###### SignUp Mobile 
 
-![SignUp](https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(6).png)
-<br>
+<img src="https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(6).png" alt="SignUp Mobile">
 <br>
 
-###### Confirm SignUp  Mobile
 
-![Confirm](https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(4).png)
 <!-- ACKNOWLEDGEMENTS -->
 
 
