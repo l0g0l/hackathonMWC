@@ -114,43 +114,40 @@ Para dar el diseño como finalizado nos piden que complemetemos las siguientes t
 
 ###### Home Desktop
 
-![Home](/images/readme/HackathonMWC.png)
+![Home](https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC.png)
 
 <br>
 <br>
 
 ###### SignUp Desktop
 
-<img src="/images/readme/HackathonMWC(1).png" alt="SignUp" >
+![SignUp](https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(1).png) 
 
 <br>
 <br>
 
-###### Confirm SignUp Desktop
+###### Verify SignUp Desktop
 
-<img src="/images/readme/HackathonMWC(5).png" alt="Confirm" >
+![Verify SingUp](https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(5).png)
 
 <br>
 <br>
 
 ###### Home Mobile
 
-<img src="/images/readme/HackathonMWC(2).png" alt="Home Mobile" >
-
+![Home](https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(2).png)
 <br>
 <br>
 
 ###### SignUp Mobile 
 
-<img src="/images/readme/HackathonMWC(3).png" alt="SignUp Mobile" >
-
+![SignUp](https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(3).png)
 <br>
 <br>
 
 ###### Confirm SignUp  Mobile
 
-<img src="/images/readme/HackathonMWC(4).png" alt="Confirm Mobile" >
-
+![Confirm](https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(4).png)
 <br>
 <br>
 
@@ -223,5 +220,5 @@ El proyecto está desplegado en [Heroku](https://id.heroku.com/)
 ## Contact
 
 - Lucía González 
-    - [Github](https://github.com/l0g0l)
+    [<img src="https://github.com/l0g0l/hackathonmwc/raw/main/src/images/GitHub.png">](https://github.com/l0g0l)
     - [LinkedIn](https://www.linkedin.com/in/luciagonzalezlara)
