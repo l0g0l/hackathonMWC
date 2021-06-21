@@ -148,10 +148,6 @@ Para dar el diseño como finalizado nos piden que complemetemos las siguientes t
 ###### Confirm SignUp  Mobile
 
 ![Confirm](https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(4).png)
-<br>
-<br>
-
-
 <!-- ACKNOWLEDGEMENTS -->
 
 
@@ -219,6 +215,8 @@ El proyecto está desplegado en [Heroku](https://id.heroku.com/)
 <!-- CONTACT -->
 ## Contact
 
-- Lucía González 
-    [<img src="https://github.com/l0g0l/hackathonmwc/raw/main/src/images/GitHub.png">](https://github.com/l0g0l)
-    - [LinkedIn](https://www.linkedin.com/in/luciagonzalezlara)
+Lucía González  
+
+[<img src="https://github.com/l0g0l/hackathonmwc/raw/main/src/images/GitHub.png" width=45px heigth=45px>](https://github.com/l0g0l)
+    
+[<img src="https://github.com/l0g0l/hackathonmwc/raw/main/src/images/linkedin.png"  width=40px heigth=40px>](https://www.linkedin.com/in/luciagonzalezlara)
