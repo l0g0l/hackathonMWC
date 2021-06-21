@@ -1,5 +1,6 @@
 import React from 'react'
 
+// he creado un cronómetro para ajustarme a las 27h reales del reto
 
 function Stopwatch() {
 

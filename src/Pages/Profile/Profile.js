@@ -9,6 +9,7 @@ import './profile.scss'
 
 
 const Profile = () => {
+    // Con este objeto Json  creo los inputs que vaya a necesitar en cada vista dinámicamente en el componente form, paśandole las propiedades por props
     const form_fields_definition = [{
         placeholder: "Teléfono",
         text: "Número de teléfono ",

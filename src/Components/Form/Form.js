@@ -7,6 +7,7 @@ import './form.scss'
 
 
 const Input = (props) => {
+    // función para mostrar la contraseña
     function myFunction() {
         var x = document.getElementById("myInput");
         if (x.type === "password") {
@@ -15,6 +16,7 @@ const Input = (props) => {
             x.type = "password";
         }
     }
+    // función para redirigir la página dinámicamente
     let history = useHistory();
     const sendDestination = () => {
         history.push(props.destination);
@@ -26,10 +28,11 @@ const Input = (props) => {
         sendDestination()
 
     }
-
+// con el map creo el componente Form de manera dinámica según las necesidades que tenga en cada vista, pasándole por props cada uno de los elementos que voy a necesitar mostrar
     return (
         <>
             <form onSubmit={handleSubmit(onSubmit)}>
+            
                 {props.fieldsDefinition.map((item) => {
                     return (
                         <div key={item.name} className={typeof item.div_className === "undefined" ? "textfield" : item.div_className}>
@@ -54,8 +57,8 @@ const Input = (props) => {
                 })}
 
                 <div>
-                    
-                <Button txt={props.buttontxt} button_onclick={typeof props.button_onclick != "undefined" ? props.button_onclick : () => {}}/>              
+
+                    <Button txt={props.buttontxt} button_onclick={typeof props.button_onclick != "undefined" ? props.button_onclick : () => { }} />
                 </div>
 
             </form>

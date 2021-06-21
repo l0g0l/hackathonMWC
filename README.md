@@ -111,7 +111,7 @@ Para dar el diseño como finalizado nos piden que complemetemos las siguientes t
 
 ###### SignUp Desktop
 
-<img src="https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(1).png" alt="SignUp Desktop"> 
+<img src="https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(1).png" alt="SignUp Desktop" > 
 
 <br>
 <br>
@@ -136,8 +136,6 @@ Para dar el diseño como finalizado nos piden que complemetemos las siguientes t
 
 
 <!-- ACKNOWLEDGEMENTS -->
-
-
 ## Languages and Tools:
 El Front End ha sido creado con [Reactjs](https://es.reactjs.org/) y [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 El proyecto está desplegado en [Heroku](https://id.heroku.com/)  
@@ -180,21 +178,6 @@ El proyecto está desplegado en [Heroku](https://id.heroku.com/)
        <a href="https://www.heroku.com/home" target="_blank">
         <img src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png" alt="heroku" width="40" height="40"/>
     </a>
-<!--     <a>
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/>
-    </a>
-    <a>
-        <img src="https://i.imgur.com/s59l4lu.png" alt="redux" width="40" height="40"/>
-    </a>
-    <a>
-        <img src="https://i.imgur.com/MD1U1tu.png" alt="redux" width="40" height="40"/>
-    </a>
-    <a>
-        <img src="https://i.imgur.com/0fbJECr.png" alt="redux" width="40" height="40"/>
-    </a>
-    <a>
-        <img src="https://i.imgur.com/lfb9mFw.png" alt="redux" width="40" height="40"/>
-    </a> -->
 </p>
 
 

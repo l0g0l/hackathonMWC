@@ -8,14 +8,11 @@ import polygon2 from '../../images/icons/Polygon 3.png';
 import briefcase from '../../images/icons/briefcase.png';
 
 
-
-
-
-
-import'../../common.scss';
+import '../../common.scss';
 import './home.scss';
 
 const Home = () => {
+    // función que redirige a otra url
     let history = useHistory();
     const sendSignUp = () => {
         history.push("/signup");
@@ -24,10 +21,10 @@ const Home = () => {
     const sendSignUp2 = () => {
         history2.push("/signup");
     }
-    
+
     return (
         <>
-            
+
             <div className="containertotal">
                 <div className="txthomeheader">
                     <h3 className="txt-home">Ya tienes cuenta?<span className="txt-link"><Link to="./signup"> Inicia sesión</Link></span></h3>
@@ -35,7 +32,7 @@ const Home = () => {
                 <div className="textfieldhome-text">
                     <p className="textfieldhome-text-1">¡Únete a la comunidad!</p>
                     <p className="textfieldhome-text-2">Para empezar, dinos que cuenta te gustaría abrir.</p>
-                    </div>
+                </div>
 
                 <div className="textfieldhome" onClick={sendSignUp}>
                     <div className="textfieldhome-btns">
@@ -50,9 +47,9 @@ const Home = () => {
                             <p className="textfieldhome-text-4">Cuenta personas para entrar en el mundo Dev</p>
 
                         </div>
-                        
+
                         <div className="textfieldhome-icon">
-                            <img src={arrow} alt="arrow" width='3%'/>
+                            <img src={arrow} alt="arrow" width='3%' />
                         </div>
                     </div>
                 </div>
@@ -70,9 +67,9 @@ const Home = () => {
                             <p className="textfieldhome-text-4">Tienes o perteneces a una compañía</p>
 
                         </div>
-                        
+
                         <div className="textfieldhome-icon2">
-                            <img src={arrow} alt="arrow" width='3%'/>
+                            <img src={arrow} alt="arrow" width='3%' />
                         </div>
                     </div>
                 </div>
