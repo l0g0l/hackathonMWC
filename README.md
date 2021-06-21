@@ -109,61 +109,50 @@ Para dar el diseño como finalizado nos piden que complemetemos las siguientes t
 - **DOD-3:** Tiene que estar desarrollado utilizando ReactJS
 
 
-
-
 <!-- USAGE -->
-<!-- ## APP OVERVIEW
+ ## APP OVERVIEW
 
-###### Registration & Login
+###### Home Desktop
 
-<img src="https://github.com/diegogb-08/Hobbidu-frontend/blob/master/public/gif/register.gif?raw=true" alt="Register" >
-
-<br>
-<br>
-
-###### Login and User profile update
-
-<img src="https://github.com/diegogb-08/Hobbidu-frontend/blob/master/public/gif/login.gif?raw=true" alt="Login" >
+![Home](/images/readme/HackathonMWC.png)
 
 <br>
 <br>
 
-###### Edit hobbies, change email & password and logaout
+###### SignUp Desktop
 
-<img src="https://github.com/diegogb-08/Hobbidu-frontend/blob/master/public/gif/edit_hobbies.gif?raw=true" alt="edit hobby" >
-
-<br>
-<br>
-
-###### Follow users
-
-<img src="https://github.com/diegogb-08/Hobbidu-frontend/blob/master/public/gif/follow.gif?raw=true" alt="follow users" >
+<img src="/images/readme/HackathonMWC(1).png" alt="SignUp" >
 
 <br>
 <br>
 
-###### Filter events by location and distance
+###### Confirm SignUp Desktop
 
-<img src="https://github.com/diegogb-08/Hobbidu-frontend/blob/master/public/gif/event_location.gif?raw=true" alt="follow users" >
-
-<br>
-<br>
-
-###### Create event
-
-<img src="https://github.com/diegogb-08/Hobbidu-frontend/blob/master/public/gif/create_event.gif?raw=true" alt="follow users" >
+<img src="/images/readme/HackathonMWC(5).png" alt="Confirm" >
 
 <br>
 <br>
 
-###### Create post
+###### Home Mobile
 
-<img src="https://github.com/diegogb-08/Hobbidu-frontend/blob/master/public/gif/create_post.gif?raw=true" alt="follow users" >
+<img src="/images/readme/HackathonMWC(2).png" alt="Home Mobile" >
 
 <br>
 <br>
 
---- -->
+###### SignUp Mobile 
+
+<img src="/images/readme/HackathonMWC(3).png" alt="SignUp Mobile" >
+
+<br>
+<br>
+
+###### Confirm SignUp  Mobile
+
+<img src="/images/readme/HackathonMWC(4).png" alt="Confirm Mobile" >
+
+<br>
+<br>
 
 
 <!-- ACKNOWLEDGEMENTS -->
