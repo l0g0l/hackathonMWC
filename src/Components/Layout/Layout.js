@@ -1,6 +1,5 @@
 import React from 'react';
 import Background from '../Background/Background'
-// import Stopwatch from '../Stopwatch/Stopwatch';
 
 
 import './layout.scss'
