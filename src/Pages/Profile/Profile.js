@@ -27,7 +27,7 @@ const Profile = () => {
         name: "direccion"
     },
     {
-        placeholder: "Selecciona uno",
+        placeholder: "País",
         text: "País de residencia",
         error_msg: "",
         validationOptions: {
