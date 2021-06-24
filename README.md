@@ -9,6 +9,12 @@
   <p align="center">
     <a href="https://hackathon-mwc.herokuapp.com/">View Web Application</a>
   </p>
+  <p align="center">
+<img src="https://img.shields.io/codefactor/grade/github/l0g0l/hackathonmwc/main?style=flat-square" alt="Codefactor Grade">
+</p>
+
+
+
 </p>
 
 
@@ -125,13 +131,13 @@ Para dar el diseño como finalizado nos piden que complemetemos las siguientes t
 
 ###### Home Mobile
 
-<img src="https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(2).png" alt="Home Mobile">
+<img src="https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(2).png" alt="Home Mobile" width="150">
 <br>
 <br>
 
 ###### SignUp Mobile 
 
-<img src="https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(6).png" alt="SignUp Mobile">
+<img src="https://github.com/l0g0l/hackathonmwc/raw/main/src/images/readme/HackathonMWC%20(6).png" alt="SignUp Mobile" width="150">
 <br>
 
 
