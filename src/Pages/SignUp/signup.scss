@@ -16,6 +16,9 @@
   align-items: baseline;
   justify-content: center;
   max-width: 300px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    max-width: unset;
+  }
 }
 .google {
   display: flex;

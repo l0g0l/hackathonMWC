@@ -10,6 +10,9 @@
     box-shadow: 4px 4px 10px rgb(0 0 0 / 18%);
     margin-bottom: 20px;
     padding: 0 10px;
+    @media (min-width: 320px) and (max-width: 480px) {
+      width: unset;
+    }
   }
   ::placeholder {
     font-size: 12px;

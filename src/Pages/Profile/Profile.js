@@ -5,7 +5,6 @@ import Form from '../../Components/Form/Form';
 
 
 import '../../common.scss';
-import './profile.scss'
 
 
 const Profile = () => {
