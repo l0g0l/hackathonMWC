@@ -44,7 +44,8 @@ const Input = (props) => {
                                 className={typeof item.className === "undefined" ? "textfield-input" : item.className}
                                 placeholder={item.placeholder}
                                 id={typeof item.id === "undefined" ? "" : item.id}
-                                {...register(item.name, item.validationOptions)} />
+                                {...register(item.name, item.validationOptions)}
+                                autoComplete="off" />
                             {errors[item.name] && item.error_msg}
 
                             {item.showmostrar === true ? <span onClick={myFunction}>Mostrar</span> : ""}
